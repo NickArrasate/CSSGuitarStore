@@ -1,0 +1,80 @@
+body{
+  background: #fff;
+  font-family: sans-serif;
+
+}
+.wrap{
+  width: 900px;
+  margin: auto;
+  background-color: white;
+  clear: both;
+}
+.wrap::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+#bannerWrap{
+  width: 1000px;
+  margin: auto;
+  position: relative;
+}
+#banner{
+  max-width: 100%;
+}
+#bannerCopy{
+  position: absolute;
+  font-family: 'Dancing Script', cursive;
+  font-size: 28pt;
+  font-weight: bold;
+  right: 280px;
+  bottom: 30px;
+}
+.image {
+  height: 300px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 3px;
+}
+.image:hover{
+  box-shadow: 0px 0px 1px 6px rgba(153,190,255,1);
+}
+#copy {
+  text-align: center;
+  padding-top: 45px;
+  margin-bottom: 60px;
+  border-bottom: solid 1px #eee;
+}
+#gallery {
+  margin-left: auto;
+}
+#form {
+  clear:both;
+  box-sizing: border-box;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+#form::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+input {
+  background-color: #eee;
+  border-radius: 6px;
+  border: solid 1px rgb(153,190,255);
+  margin-left: 6px;
+}
+table{
+  margin: auto;
+}
+#shipHeader{
+  text-align: center;
+  margin: auto;
+}
+th{
+  text-align: left;
+  width: 120px;
+  border-bottom: solid 1px #bbb;
+}
