@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body{
   background: #fff;
   font-family: sans-serif;
@@ -64,6 +70,7 @@ input {
   border-radius: 6px;
   border: solid 1px rgb(153,190,255);
   margin-left: 6px;
+  margin-top: 5px;
 }
 table{
   margin: auto;
