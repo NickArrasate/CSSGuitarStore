@@ -83,21 +83,30 @@ th{
   width: 120px;
   border-bottom: solid 1px #bbb;
 }
-.listWrap{
-  margin: auto;
+.table{
+  display: table;
+  margin: 0 auto;
 }
 #listHead{
 text-align: center;
 border-bottom: solid 1px #eee;
 }
 #brandList {
-  columns: 80px;
   list-style: none;
+  margin-bottom: 40px;
 }
 #brandList li{
+  font-size: 16pt;
+  display: inline;
   text-align: center;
+  margin-right: 20px;
   border-left: solid 1px #bbb;
   border-right: solid 1px #bbb;
   width: 80px;
-  padding: 3px 5px;
+  padding: 3px 9px;
+}
+#brandList li:hover{
+  background-color: #aaa;
+  cursor: pointer;
+  color: white;
 }
