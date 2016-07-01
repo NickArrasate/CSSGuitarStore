@@ -1,7 +1,6 @@
 body{
   background: #fff;
   font-family: sans-serif;
-
 }
 .wrap{
   width: 900px;
@@ -42,7 +41,7 @@ body{
 #copy {
   text-align: center;
   padding-top: 45px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   border-bottom: solid 1px #eee;
 }
 #gallery {
@@ -52,7 +51,7 @@ body{
   clear:both;
   box-sizing: border-box;
   padding-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
 }
 #form::after {
@@ -68,13 +67,37 @@ input {
 }
 table{
   margin: auto;
+  margin-bottom: 80px;
+  background-color: #ddd;
+  border-radius: 8px;
+  padding: 8px 10px;
 }
 #shipHeader{
   text-align: center;
   margin: auto;
+  font-size: 18pt;
+  margin-bottom: 10px;
 }
 th{
   text-align: left;
   width: 120px;
   border-bottom: solid 1px #bbb;
+}
+.listWrap{
+  margin: auto;
+}
+#listHead{
+text-align: center;
+border-bottom: solid 1px #eee;
+}
+#brandList {
+  columns: 80px;
+  list-style: none;
+}
+#brandList li{
+  text-align: center;
+  border-left: solid 1px #bbb;
+  border-right: solid 1px #bbb;
+  width: 80px;
+  padding: 3px 5px;
 }
